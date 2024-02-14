@@ -1,2 +1,1 @@
-# startpage
-My personal startpage
+# startpage for browsers

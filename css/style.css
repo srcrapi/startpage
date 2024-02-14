@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #181825;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+}
+
+img {
+  height: 600px;
+  width: 350px;
+  border-radius: 10px;
+  margin-right: 2rem;
+  box-shadow: #313244 0 0 12px;
+}
+
+.content {
+  flex-direction: column;
+  letter-spacing: 2px;
+}
+.content h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #f2cdcd;
+}
+.content h2 {
+  margin-bottom: 8px;
+  color: #eba0ac;
+}
+
+.work {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: max-content;
+  min-width: 24rem;
+  margin: 10%;
+}
+.work ul {
+  list-style: none;
+  line-height: 22px;
+}
+.work li {
+  text-indent: 15px;
+}
+.work a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #9399b2;
+}
+.work a:hover {
+  font-style: italic;
+  color: #f9e2af;
+}
+
+/*# sourceMappingURL=style.css.map */
