@@ -31,18 +31,26 @@ img {
 .content {
   flex-direction: column;
   letter-spacing: 2px;
+  margin-left: 25px;
 
   h1 {
     font-size: 2.2rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: $title;
   }
 
   h2 {
-    margin-bottom: 8px;
+    margin: 18px 0 8px 0;
     color: $sub-title;
+  }
+
+  span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 23px;
+    color: $text;
   }
 }
 
@@ -53,6 +61,12 @@ img {
   grid-auto-rows: max-content;
   min-width: 24rem;
   margin: 10%;
+  margin-right: 30px;
+
+  article:nth-child(2),
+  article:nth-child(4) {
+    margin-left: 30px;
+  }
 
   ul {
     list-style: none;
